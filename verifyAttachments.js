@@ -1,10 +1,12 @@
 var saveCreateAP=document.getElementById('saveCreateAP');
 var btn1=document.getElementById('btn1');
+if (btn1!=null){
 btn1.addEventListener('click', ()=>{
-
+console.log('btn1');
 	alert('Hi There');
-});
-	
+});}else{console.log('no btn1');}
+	if(saveCreateAP!=null){
+		console.log('saveCreateAP');
 saveCreateAP.addEventListener('click', ()=>{
 		var attachment=document.getElementById('pt1:_FOr1:0:_FONSr2:0:MAnt2:0:pm1:r1:0:ap1:r2:0:a1:aapg_link');
 		var attachmentTbl=attachment.firstChild;
@@ -25,7 +27,7 @@ saveCreateAP.addEventListener('click', ()=>{
 		aSave.click();
 		}
 		}
-		});
+		});}else{console.log('no saveCreateAP');}
 function saveManageAP(){
 		var attachment=document.getElementById('pt1:_FOr1:0:_FONSr2:0:MAnt2:0:pm1:r1:0:ap1:r2:0:a1:aapg_link');
 		var attachmentTbl=attachment.firstChild;
