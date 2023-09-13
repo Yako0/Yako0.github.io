@@ -9,7 +9,7 @@ console.log('btn1');
 		console.log('saveCreateAP');
 saveCreateAP.addEventListener('click', ()=>{
 	console.log('saveCreateAP 1');
-		var attachment=document.getElementById('pt1:_FOr1:0:_FONSr2:0:MAnt2:0:pm1:r1:0:ap1:r2:0:a1:aapg_link');
+		var attachment=document.getElementById('pt1:_FOr1:1:_FONSr2:0:MAnt2:1:pm1:r1:0:ap1:r2:0:a1:aapg_link');
 	console.log('saveCreateAP 2 ' );
 		var attachmentTbl=attachment.firstChild;
 	console.log('saveCreateAP 3 ');
