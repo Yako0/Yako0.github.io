@@ -1,4 +1,10 @@
 var saveCreateAP=document.getElementById('saveCreateAP');
+var btn1=document.getElementById('btn1');
+btn1.addEventListener('click', ()=>{
+
+	alert('Hi There');
+});
+	
 saveCreateAP.addEventListener('click', ()=>{
 		var attachment=document.getElementById('pt1:_FOr1:0:_FONSr2:0:MAnt2:0:pm1:r1:0:ap1:r2:0:a1:aapg_link');
 		var attachmentTbl=attachment.firstChild;
